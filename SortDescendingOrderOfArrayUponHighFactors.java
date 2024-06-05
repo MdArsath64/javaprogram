@@ -3,11 +3,11 @@ public class SortDescendingOrderOfArrayUponHighFactors {
     public static void main(String[] args) {
     int[] arr={8,2,3,12,16};
     int[] brr=new int[arr.length];
-    int count=0,m=0,temp;
+    int count=0,temp;
     for(int i=0;i<arr.length;i++){
     count=0;
     for(int j=1;j<=arr[i];j++){
-    if(arr[i]%j==0){gi
+    if(arr[i]%j==0){
     System.out.print(j);
     count++;
     }
